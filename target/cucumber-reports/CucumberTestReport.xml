@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="36.748">
+<testcase classname="Teste das funcionalidades da aplicacao do banco XYZ" name="Realizar deposito em uma conta valida" time="12.559">
+<system-out><![CDATA[Dado que acesse o site do banco XYZ.........................................passed
+E que o usuario esteja logado como "Neville Longbottom".....................passed
+E que esteja na conta "1015"................................................passed
+Quando o cliente depositar 500 em sua conta.................................passed
+Entao a quantia deve ser depositada na conta fornecida......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Teste das funcionalidades da aplicacao do banco XYZ" name="Criacao de um cliente" time="8.311">
+<system-out><![CDATA[Dado que acesse o site do banco XYZ.........................................passed
+E que o gerente esteja logado...............................................passed
+E esteja no formulario de adicionar cliente.................................passed
+Quando o gerente preencher com dados validos as informacoes do cliente "Hugo", "Silveira", "3438-2".passed
+E clicar em adicionar cliente...............................................passed
+Entao uma novo cliente deve ser criado com sucesso..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Teste das funcionalidades da aplicacao do banco XYZ" name="Criacao de uma conta" time="7.798">
+<system-out><![CDATA[Dado que acesse o site do banco XYZ.........................................passed
+E que o gerente esteja logado...............................................passed
+E esteja no formulario de abrir conta.......................................passed
+Quando o gerente preencher com dados validos as informacoes "Neville Longbottom" e "Rupee".passed
+E clicar em criar conta.....................................................passed
+Entao uma nova conta para o cliente deve ser criada com sucesso.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag Labs Demo Site" name="Realizar login" time="7.175">
+<system-out><![CDATA[Dado que estou na pagina de login do swag labs demo site....................passed
+Quando preencho os campos de login do swag labs "standard_user" e "secret_sauce" com dados validos.passed
+E pressiono o botao de login do site swag labs..............................passed
+Entao deve exibir a pagina de inventario....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
